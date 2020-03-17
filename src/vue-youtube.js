@@ -141,7 +141,8 @@ export default {
       width: this.width,
       height: this.height,
       videoId: this.videoId,
-      playerVars: this.playerVars
+      playerVars: this.playerVars,
+      loading: 'lazy'
     })
 
     this.player.on('ready', this.playerReady)
